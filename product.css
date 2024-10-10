@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+.navbar {
+    background-color: #ff97de;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    margin-left: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffccf1;
+}
+
+.position-relative img {
+    border-radius: 15px;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.position-absolute {
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #ff97de;
+}
+
+p {
+    color: #555;
+}
+
+#products {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#products .text-center p {
+    color: #ff97de;
+}
+
+#products img {
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#products img:hover {
+    transform: scale(1.05);
+}
+
+.btn-outline-secondary {
+    color: #ff97de;
+    border-color: #ff97de;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #ff97de;
+    color: white;
+}
+
+#Contact h2 {
+    color: #ff97de;
+}
+
+#Contact a {
+    color: #ff97de;
+}
+
+#Contact a:hover {
+    color: #ffccf1;
+}
+
+footer {
+    background-color: #ff97de;
+    color: white;
+    padding: 10px;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+.product {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+#cart {
+    border-top: 2px solid #007bff;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.total {
+    font-weight: bold;
+}

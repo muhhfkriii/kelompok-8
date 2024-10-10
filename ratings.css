@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e365b3;
+  }
+
+  .review-section {
+    margin-top: 30px;
+  }
+
+  .review-card {
+    margin-bottom: 20px;
+  }
+
+  .star-rating input[type="radio"] {
+    display: none;
+  }
+
+  .star-rating label {
+    font-size: 25px;
+    color: #ddd;
+    cursor: pointer;
+  }
+
+  .star-rating input[type="radio"]:checked ~ label {
+    color: #ffd700;
+  }
+
+  .star-rating label:hover,
+  .star-rating label:hover ~ label {
+    color: #ffd700;
+  }
